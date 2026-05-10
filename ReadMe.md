@@ -51,3 +51,17 @@ Ca marche en vérifiant l'angle entre les points, s'il est proche de 180° ou no
 4. Fusionner les points proches (pas forcément les bords)
 => Simplifier de nouveau, code plus épuré
 5. On refait l'étape 3 pour simplifier les nouveaux points formés
+
+# Exercice n°3
+
+## Compléter la fonction Dijkstra(...) dans src/dataStructure/graphUtils.cpp.
+
+Pour le code, je me suis aidée de la fonction pour le DPS au dessus pour comprendre à peu près la structure à faire.
+Je me suis servir de l'IA pour débugué la boucle for pour visiter les voisins (ma condition n'était pas bonne et faisait tout buger), j'avais du mal à comprendre le type de valeur de la variable voisin (je pensais que c'était un pair aussi). J'ai fini gardé le auto comme dans la fonction DPS au dessus mais c'est le seul point qui reste un peu flou dans le code pour moi, je n'ai pas trouvé la struct exacte où il est défini.
+
+## Vérifier que dijkstra_path(...) reconstruit correctement un chemin. 
+✅
+
+## Tester sur le graphe chargé par le projet en mode visualisation raylib (interaction dans la fenêtre) pour afficher le chemin trouvé.
+
+Je ne sais pas si le chemin est exacte mais à première vue ça affiche bien le chemin le plus court pour aller d'un point à un autre
